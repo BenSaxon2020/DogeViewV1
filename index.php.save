@@ -1,0 +1,32 @@
+<?php
+/*echo "world" . "<br>";
+echo "The time is " . date("h:i:sa") . "<br>";
+echo "Today is " . date("Y/m/d") . "<br>";
+echo "Today is " . date("Y.m.d") . "<br>";
+echo "Today is " . date("Y-m-d") . "<br>";
+echo "Today is " . date("l");
+
+echo "i am new" . "<br>";
+function health(){
+$i=6;
+if ($i==5){
+echo ' <img src="server_g.png" /> ';
+	}
+}
+
+health();
+*/
+
+
+function read(){
+$string = file_get_contents("data.json");
+$json_a = json_decode($string, true);
+
+$a = array(1, 2, 3, 17);Current value of \$a: $v.\n";
+
+foreach ($a as $v){
+echo "good";
+}}
+
+
+read();

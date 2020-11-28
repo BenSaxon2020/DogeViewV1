@@ -1,0 +1,26 @@
+{
+  "servers": {
+    "crm": {
+      "status": "OK"
+    },
+    "tracker": {
+      "status": "ERROR",
+      "message": "Disk utilization of \"/\" exceeds 85%.",
+      "raised": "12:30:45 22/06/2020",
+      "updated": "12:30:45 22/06/2020"
+    },
+    "hodor": {
+      "status": "ok",
+      "message": "Disk utilization of \"/\" exceeds 85%.",
+      "raised": "12:30:45 22/06/2020",
+      "updated": "12:30:45 22/06/2020"
+    },
+    "barristan": {
+      "status": "ERROR",
+      "message": "Cannot connect to barristan.worktribe.com!",
+      "raised": "12:30:45 22/06/2020",
+      "updated": "12:30:45 22/06/2020"
+    }
+  },
+  "timestamp": "1580819246"
+}
